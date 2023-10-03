@@ -25,4 +25,7 @@ vars:
   truncate_timespan_to: "{{ current_timestamp() }}"
   "dbt_date:time_zone": "America/Los_Angeles"
 
-seeds:
+
+seeds: 
+  +docs:
+    show: false

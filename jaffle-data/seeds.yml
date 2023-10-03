@@ -1,4 +1,0 @@
-seeds: 
-  - name: raw_customers
-    docs:
-      show: true
